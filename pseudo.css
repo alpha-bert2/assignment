@@ -19,7 +19,12 @@ html{
     css styling for my hearder
     and it's content
 */
-
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: white;
+}
 .mainHead{
     display: flex;
     justify-content: space-between;
@@ -372,6 +377,7 @@ contains summary and other links*/
 footer{
     background-color: rgba(235, 235, 240, 0.562) ;
     min-height: 30vh;
+    width: 100%;
 }
 .mainFoot{
     display: flex;
